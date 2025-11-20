@@ -15,8 +15,8 @@ data:
       filelist_path: filelist.val
       sampling_rate: 24000
       num_samples: 48384
-      batch_size: 16
-      num_workers: 8
+      batch_size: 64
+      num_workers: 16
 
 model:
   class_path: vocos.experiment.VocosExp
